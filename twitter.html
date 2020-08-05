@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login on Twitter
+        </title>
+
+        <link rel="twitter icon" href="https://abs.twimg.com/favicons/twitter.ico">
+
+        <link rel="stylesheet" href="twitter_style.css">  
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
+
+        <script src="twitter_form_valid.js"></script>
+    </head>
+
+    <body>
+
+        <a href="home.html">
+            <img src="images/white_home.png" alt="Home">
+        </a>
+
+        <div class="logo">
+            <img src="images/twitter_bird.jpg" alt="Twitter" width="75" height="75">
+        </div>
+
+        <h1>
+            Log in to Twitter
+        </h1>
+
+        <form class="boxContainer" action="oops!.html" id="form">
+
+            <div class="inputContainerTop1">
+
+                <label class="inputContainerTop2" id="usernameContainer">
+
+                    <div class="labelContainer">
+                        <span class="labelText" id="usernameLabel">Phone, email, or username</span>
+                    </div>
+              
+                    <div class="inputLevel">
+
+                        <input class="input" id="username" onfocus="usernameTurnBlue()" oninput="enableButton()" onkeyup="enterToSubmit(event)"  required></input> 
+                   </div>
+                    
+                </label>
+
+                </br>
+                </br>
+
+                <label class="inputContainerTop2" id="passwordContainer">
+
+                    <div class="labelContainer">
+                      <span class="labelText" id="passwordLabel">Password</span>
+                    </div>
+
+                    <div class="inputLevel">
+                        <input class="passwordInput" id="password" onfocus="passwordTurnBlue()" oninput="enableButton()" onkeyup="enterToSubmit(event)" required></input>
+                    </div>
+
+                </label>
+            </div>
+
+            </br>
+
+            <div>
+                <input type="button" onclick="twitterFormValidation()" id="button" name="button" value="Log In" class="button" disabled>
+            </div> 
+
+        </form>
+
+        
+      
+
+        <footer>
+            <div id="footer" class="footer">
+                This is not a real Twitter login page.
+            </div>
+        </footer>
+     
+    </body>
+</html>

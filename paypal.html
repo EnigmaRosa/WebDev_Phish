@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Log into your PayPal account
+        </title>
+
+        <link rel="paypal icon" href="images/pp_favicon_x.ico">
+
+        <link rel="stylesheet" href="paypal_style.css">   
+        
+        <script src="paypal_form_valid.js"></script>
+    </head>
+
+    <body>
+
+        <a href="home.html">
+            <img src="images/white_home.png" alt="Home">
+        </a>
+        
+        <div class="boxBorder boxContainer">
+
+            <div class="logo">
+                <img src="images/paypal-logo.svg">
+            </div>
+
+            <br>
+
+            <form id="form" action="oops!.html" method="post">
+
+                <div>
+                    <input id="username" type="email" class="input1" name="username" placeholder="Email address or mobile number" required>
+                </div>
+
+                <br>
+
+                <div class="passwordInput">
+                    <input id="password" class="input1" name="password" placeholder="Password" required><br>
+                </div>
+
+                <br>
+                
+                <div>
+                    <input type="button" onclick="paypalFormValidation()" id="button" name="button" value="Log In" class="button">
+                </div> 
+        </div>    
+
+        </form>
+
+        <footer>
+            <div id="footer" class="footer">
+                This is not a real PayPal login page.
+            </div>
+        </footer>
+     
+    </body>
+</html>

@@ -1,0 +1,104 @@
+.boxBorder
+{
+    margin: 120px auto 0;
+    padding: 48px 40px 36px;
+    border: 1px solid #dadce0;
+    overflow:hidden;
+}
+
+.boxContainer
+{
+    position:relative;
+    width: 25rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    -webkit-border-radius:8px;
+    border-radius: 8px;
+   
+}
+
+.logo
+{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: #202124;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+}
+
+h2
+{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+}
+
+.input1
+{
+    height: 44px;
+    width: 100%;
+    padding: 0px 10px;
+    border: 1px solid #9da3a6;
+    border-radius:5px;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    left: 8px;
+    bottom: 17px;
+    box-sizing: border-box;
+    padding: 0 8px;
+}
+
+.passwordInput
+{
+    -webkit-text-security: disc !important;
+    font-family: 'Roboto', sans-serif;
+    font-size:93.75%;
+    color: #80868b;
+}
+
+.button
+{
+    height: 40px;
+    width: 88px;
+    padding: 0 10px;
+    border: 0;
+    border-radius:4px;
+    box-sizing: border-box;
+    background-color: #1a73e8;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16;
+    letter-spacing: .25px;
+    line-height: 20px;
+    float: right;
+
+}
+
+footer
+{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: #80868b;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
