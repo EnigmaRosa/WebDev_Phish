@@ -26,6 +26,14 @@ Four popular platforms were mimicked for the email templates and landing pages:
 #### Phishing Landing Pages
 Each platform's landing page is designed to look like the platform's legitimate log-in page, with the exception of a notice at the bottom indicating that it is not a legitimate logon page. 
 
+![Facebook landing page](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/facebook_page.png)
+
+![Twitter landing page](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/twitter_page.png)
+
+![Google landing page](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/google_page.png)
+
+![PayPal landing page](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/paypal_page.png)
+
 In working to match the design of the original page, two special considerations were made:
 1. The Twitter username and password fields become blue upon focus, and the login button is only enabled once both fields are filled.
 2. Upon submission, the passwords are verified according to the individual password requirements for each platform.
@@ -39,9 +47,19 @@ Upon successful credential submission, the user is served a phishing alert page.
 
 #### Phishing Alert Page
 This page informs the user that they have falled victim to a credential phishing attack.
+![Oops page](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/oops_page.png)
 
 #### Email Templates
 An email template was prepared for each of the four platforms, urging the recipient to log into their account.
+
+![Facebook template](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/facebook_template.png)
+
+![Twitter template](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/twitter_template.png)
+
+![Google template](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/google_template.png)
+
+![PayPal template](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/paypal_template.png)
+
 A user is able to select one of the four templates, specify a recipient, preview the message, and send the phishing email.
 
 ##### Phishing Selection Page
