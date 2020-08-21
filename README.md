@@ -46,7 +46,7 @@ Password requirements were ascertained for each platform and, if the submitted p
 Upon successful credential submission, the user is served a phishing alert page.
 
 #### Phishing Alert Page
-This page informs the user that they have falled victim to a credential phishing attack.
+This page informs the user that they have fallen victim to a credential phishing attack.
 ![Oops page](https://github.com/EnigmaRosa/WebDev_Phish/blob/master/Example_Photos/oops_page.png)
 
 #### Email Templates
